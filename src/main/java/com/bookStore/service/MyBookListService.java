@@ -23,4 +23,9 @@ public class MyBookListService {
     public List<MyBookList> getAllMyBooks() {
         return myBookRepository.findAll();
     }
+
+    @Transactional
+    public void deleteById(int id) {
+        myBookRepository.deleteById(id);
+    }
 }
