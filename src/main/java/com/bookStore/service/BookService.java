@@ -20,7 +20,12 @@ public class BookService {
     }
 
     @Transactional
-    public List<Book> getAllBook() {
+    public List<Book> getAllBooks() {
         return bookRepository.findAll();
+    }
+
+    @Transactional
+    public Book getBookById(int id) {
+        return bookRepository.findById(id).get();
     }
 }
