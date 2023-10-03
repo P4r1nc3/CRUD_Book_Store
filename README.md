@@ -20,7 +20,7 @@ To run this application, you will need:
 
 Once you have these dependencies installed, you can follow these steps:
 
-1. Clone the project from GitHub: git clone `https://github.com/P4r1nc3/Book_Store`
+1. Clone the project from GitHub: git clone `https://github.com/P4r1nc3/CRUD_Book_Store`
 2. Import the project into Eclipse: File > Import > Maven > Existing Maven Projects
 3. Configure the database connection in the `application.properties` file
 4. Build and run the project on Apache Tomcat
